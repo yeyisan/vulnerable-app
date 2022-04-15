@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 app.use(cookieParser());
 app.use(logger('dev'));
-
+// 
 // app.use(function(req, res, next) {
 //     res.setHeader('Content-Security-Policy', 'script-src \'self\' ajax.googleapis.com');
 //     return next();
